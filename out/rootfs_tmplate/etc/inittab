@@ -1,0 +1,10 @@
+::sysinit:/etc/init.d/rcS
+tty1::respawn:-/bin/sh
+tty1::askfirst:-/bin/sh
+tty2::respawn:-/bin/sh
+tty2::askfirst:-/bin/sh
+tty3::respawn:-/bin/sh
+tty3::askfirst:-/bin/sh
+ttyAMA0::respawn:-/bin/sh
+ttyAMA0::askfirst:-/bin/sh
+::ctrlaltdel:/bin/umount -a -r

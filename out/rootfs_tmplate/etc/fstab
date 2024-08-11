@@ -1,0 +1,8 @@
+#device        mountpoint             fstype    options  dump   fsck
+UUID=b49310ee-ed3b-4424-b359-22ff7c8a0e73 / ext4 defaults 0 1
+proc           /proc                  proc      defaults 0      0
+tmpfs          /tmp                   tmpfs     defaults 0      0
+sysfs          /sys                   sysfs     defaults 0      0
+tmpfs          /dev                   tmpfs     defaults 0      0
+debugfs        /sys/kernel/debug      debugfs   defaults 0      0
+hostshare      /mnt                   9p        trans=virtio,version=9p2000.L 0  0

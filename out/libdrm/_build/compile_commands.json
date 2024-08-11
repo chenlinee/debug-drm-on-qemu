@@ -1,0 +1,356 @@
+[
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ilibdrm.so.2.4.0.p -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ libdrm.so.2.4.0.p/xf86drm.c.o -MF libdrm.so.2.4.0.p/xf86drm.c.o.d -o libdrm.so.2.4.0.p/xf86drm.c.o -c ../../../../libdrm/xf86drm.c",
+    "file": "../../../../libdrm/xf86drm.c",
+    "output": "libdrm.so.2.4.0.p/xf86drm.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ilibdrm.so.2.4.0.p -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ libdrm.so.2.4.0.p/xf86drmHash.c.o -MF libdrm.so.2.4.0.p/xf86drmHash.c.o.d -o libdrm.so.2.4.0.p/xf86drmHash.c.o -c ../../../../libdrm/xf86drmHash.c",
+    "file": "../../../../libdrm/xf86drmHash.c",
+    "output": "libdrm.so.2.4.0.p/xf86drmHash.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ilibdrm.so.2.4.0.p -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ libdrm.so.2.4.0.p/xf86drmRandom.c.o -MF libdrm.so.2.4.0.p/xf86drmRandom.c.o.d -o libdrm.so.2.4.0.p/xf86drmRandom.c.o -c ../../../../libdrm/xf86drmRandom.c",
+    "file": "../../../../libdrm/xf86drmRandom.c",
+    "output": "libdrm.so.2.4.0.p/xf86drmRandom.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ilibdrm.so.2.4.0.p -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ libdrm.so.2.4.0.p/xf86drmSL.c.o -MF libdrm.so.2.4.0.p/xf86drmSL.c.o.d -o libdrm.so.2.4.0.p/xf86drmSL.c.o -c ../../../../libdrm/xf86drmSL.c",
+    "file": "../../../../libdrm/xf86drmSL.c",
+    "output": "libdrm.so.2.4.0.p/xf86drmSL.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ilibdrm.so.2.4.0.p -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ libdrm.so.2.4.0.p/xf86drmMode.c.o -MF libdrm.so.2.4.0.p/xf86drmMode.c.o.d -o libdrm.so.2.4.0.p/xf86drmMode.c.o -c ../../../../libdrm/xf86drmMode.c",
+    "file": "../../../../libdrm/xf86drmMode.c",
+    "output": "libdrm.so.2.4.0.p/xf86drmMode.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Inouveau/libdrm_nouveau.so.2.0.0.p -Inouveau -I../../../../libdrm/nouveau -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ nouveau/libdrm_nouveau.so.2.0.0.p/nouveau.c.o -MF nouveau/libdrm_nouveau.so.2.0.0.p/nouveau.c.o.d -o nouveau/libdrm_nouveau.so.2.0.0.p/nouveau.c.o -c ../../../../libdrm/nouveau/nouveau.c",
+    "file": "../../../../libdrm/nouveau/nouveau.c",
+    "output": "nouveau/libdrm_nouveau.so.2.0.0.p/nouveau.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Inouveau/libdrm_nouveau.so.2.0.0.p -Inouveau -I../../../../libdrm/nouveau -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ nouveau/libdrm_nouveau.so.2.0.0.p/pushbuf.c.o -MF nouveau/libdrm_nouveau.so.2.0.0.p/pushbuf.c.o.d -o nouveau/libdrm_nouveau.so.2.0.0.p/pushbuf.c.o -c ../../../../libdrm/nouveau/pushbuf.c",
+    "file": "../../../../libdrm/nouveau/pushbuf.c",
+    "output": "nouveau/libdrm_nouveau.so.2.0.0.p/pushbuf.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Inouveau/libdrm_nouveau.so.2.0.0.p -Inouveau -I../../../../libdrm/nouveau -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ nouveau/libdrm_nouveau.so.2.0.0.p/bufctx.c.o -MF nouveau/libdrm_nouveau.so.2.0.0.p/bufctx.c.o.d -o nouveau/libdrm_nouveau.so.2.0.0.p/bufctx.c.o -c ../../../../libdrm/nouveau/bufctx.c",
+    "file": "../../../../libdrm/nouveau/bufctx.c",
+    "output": "nouveau/libdrm_nouveau.so.2.0.0.p/bufctx.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Inouveau/libdrm_nouveau.so.2.0.0.p -Inouveau -I../../../../libdrm/nouveau -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ nouveau/libdrm_nouveau.so.2.0.0.p/abi16.c.o -MF nouveau/libdrm_nouveau.so.2.0.0.p/abi16.c.o.d -o nouveau/libdrm_nouveau.so.2.0.0.p/abi16.c.o -c ../../../../libdrm/nouveau/abi16.c",
+    "file": "../../../../libdrm/nouveau/abi16.c",
+    "output": "nouveau/libdrm_nouveau.so.2.0.0.p/abi16.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Iradeon/libdrm_radeon.so.1.0.1.p -Iradeon -I../../../../libdrm/radeon -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ radeon/libdrm_radeon.so.1.0.1.p/radeon_bo_gem.c.o -MF radeon/libdrm_radeon.so.1.0.1.p/radeon_bo_gem.c.o.d -o radeon/libdrm_radeon.so.1.0.1.p/radeon_bo_gem.c.o -c ../../../../libdrm/radeon/radeon_bo_gem.c",
+    "file": "../../../../libdrm/radeon/radeon_bo_gem.c",
+    "output": "radeon/libdrm_radeon.so.1.0.1.p/radeon_bo_gem.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Iradeon/libdrm_radeon.so.1.0.1.p -Iradeon -I../../../../libdrm/radeon -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ radeon/libdrm_radeon.so.1.0.1.p/radeon_cs_gem.c.o -MF radeon/libdrm_radeon.so.1.0.1.p/radeon_cs_gem.c.o.d -o radeon/libdrm_radeon.so.1.0.1.p/radeon_cs_gem.c.o -c ../../../../libdrm/radeon/radeon_cs_gem.c",
+    "file": "../../../../libdrm/radeon/radeon_cs_gem.c",
+    "output": "radeon/libdrm_radeon.so.1.0.1.p/radeon_cs_gem.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Iradeon/libdrm_radeon.so.1.0.1.p -Iradeon -I../../../../libdrm/radeon -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ radeon/libdrm_radeon.so.1.0.1.p/radeon_cs_space.c.o -MF radeon/libdrm_radeon.so.1.0.1.p/radeon_cs_space.c.o.d -o radeon/libdrm_radeon.so.1.0.1.p/radeon_cs_space.c.o -c ../../../../libdrm/radeon/radeon_cs_space.c",
+    "file": "../../../../libdrm/radeon/radeon_cs_space.c",
+    "output": "radeon/libdrm_radeon.so.1.0.1.p/radeon_cs_space.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Iradeon/libdrm_radeon.so.1.0.1.p -Iradeon -I../../../../libdrm/radeon -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ radeon/libdrm_radeon.so.1.0.1.p/radeon_bo.c.o -MF radeon/libdrm_radeon.so.1.0.1.p/radeon_bo.c.o.d -o radeon/libdrm_radeon.so.1.0.1.p/radeon_bo.c.o -c ../../../../libdrm/radeon/radeon_bo.c",
+    "file": "../../../../libdrm/radeon/radeon_bo.c",
+    "output": "radeon/libdrm_radeon.so.1.0.1.p/radeon_bo.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Iradeon/libdrm_radeon.so.1.0.1.p -Iradeon -I../../../../libdrm/radeon -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ radeon/libdrm_radeon.so.1.0.1.p/radeon_cs.c.o -MF radeon/libdrm_radeon.so.1.0.1.p/radeon_cs.c.o.d -o radeon/libdrm_radeon.so.1.0.1.p/radeon_cs.c.o -c ../../../../libdrm/radeon/radeon_cs.c",
+    "file": "../../../../libdrm/radeon/radeon_cs.c",
+    "output": "radeon/libdrm_radeon.so.1.0.1.p/radeon_cs.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Iradeon/libdrm_radeon.so.1.0.1.p -Iradeon -I../../../../libdrm/radeon -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ radeon/libdrm_radeon.so.1.0.1.p/radeon_surface.c.o -MF radeon/libdrm_radeon.so.1.0.1.p/radeon_surface.c.o.d -o radeon/libdrm_radeon.so.1.0.1.p/radeon_surface.c.o -c ../../../../libdrm/radeon/radeon_surface.c",
+    "file": "../../../../libdrm/radeon/radeon_surface.c",
+    "output": "radeon/libdrm_radeon.so.1.0.1.p/radeon_surface.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Iamdgpu/libdrm_amdgpu.so.1.0.0.p -Iamdgpu -I../../../../libdrm/amdgpu -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers '-DAMDGPU_ASIC_ID_TABLE=\"/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/install/share/libdrm/amdgpu.ids\"' -MD -MQ amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_asic_id.c.o -MF amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_asic_id.c.o.d -o amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_asic_id.c.o -c ../../../../libdrm/amdgpu/amdgpu_asic_id.c",
+    "file": "../../../../libdrm/amdgpu/amdgpu_asic_id.c",
+    "output": "amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_asic_id.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Iamdgpu/libdrm_amdgpu.so.1.0.0.p -Iamdgpu -I../../../../libdrm/amdgpu -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers '-DAMDGPU_ASIC_ID_TABLE=\"/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/install/share/libdrm/amdgpu.ids\"' -MD -MQ amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_bo.c.o -MF amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_bo.c.o.d -o amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_bo.c.o -c ../../../../libdrm/amdgpu/amdgpu_bo.c",
+    "file": "../../../../libdrm/amdgpu/amdgpu_bo.c",
+    "output": "amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_bo.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Iamdgpu/libdrm_amdgpu.so.1.0.0.p -Iamdgpu -I../../../../libdrm/amdgpu -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers '-DAMDGPU_ASIC_ID_TABLE=\"/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/install/share/libdrm/amdgpu.ids\"' -MD -MQ amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_cs.c.o -MF amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_cs.c.o.d -o amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_cs.c.o -c ../../../../libdrm/amdgpu/amdgpu_cs.c",
+    "file": "../../../../libdrm/amdgpu/amdgpu_cs.c",
+    "output": "amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_cs.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Iamdgpu/libdrm_amdgpu.so.1.0.0.p -Iamdgpu -I../../../../libdrm/amdgpu -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers '-DAMDGPU_ASIC_ID_TABLE=\"/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/install/share/libdrm/amdgpu.ids\"' -MD -MQ amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_device.c.o -MF amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_device.c.o.d -o amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_device.c.o -c ../../../../libdrm/amdgpu/amdgpu_device.c",
+    "file": "../../../../libdrm/amdgpu/amdgpu_device.c",
+    "output": "amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_device.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Iamdgpu/libdrm_amdgpu.so.1.0.0.p -Iamdgpu -I../../../../libdrm/amdgpu -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers '-DAMDGPU_ASIC_ID_TABLE=\"/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/install/share/libdrm/amdgpu.ids\"' -MD -MQ amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_gpu_info.c.o -MF amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_gpu_info.c.o.d -o amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_gpu_info.c.o -c ../../../../libdrm/amdgpu/amdgpu_gpu_info.c",
+    "file": "../../../../libdrm/amdgpu/amdgpu_gpu_info.c",
+    "output": "amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_gpu_info.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Iamdgpu/libdrm_amdgpu.so.1.0.0.p -Iamdgpu -I../../../../libdrm/amdgpu -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers '-DAMDGPU_ASIC_ID_TABLE=\"/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/install/share/libdrm/amdgpu.ids\"' -MD -MQ amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_vamgr.c.o -MF amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_vamgr.c.o.d -o amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_vamgr.c.o -c ../../../../libdrm/amdgpu/amdgpu_vamgr.c",
+    "file": "../../../../libdrm/amdgpu/amdgpu_vamgr.c",
+    "output": "amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_vamgr.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Iamdgpu/libdrm_amdgpu.so.1.0.0.p -Iamdgpu -I../../../../libdrm/amdgpu -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers '-DAMDGPU_ASIC_ID_TABLE=\"/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/install/share/libdrm/amdgpu.ids\"' -MD -MQ amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_vm.c.o -MF amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_vm.c.o.d -o amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_vm.c.o -c ../../../../libdrm/amdgpu/amdgpu_vm.c",
+    "file": "../../../../libdrm/amdgpu/amdgpu_vm.c",
+    "output": "amdgpu/libdrm_amdgpu.so.1.0.0.p/amdgpu_vm.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Iamdgpu/libdrm_amdgpu.so.1.0.0.p -Iamdgpu -I../../../../libdrm/amdgpu -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers '-DAMDGPU_ASIC_ID_TABLE=\"/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/install/share/libdrm/amdgpu.ids\"' -MD -MQ amdgpu/libdrm_amdgpu.so.1.0.0.p/handle_table.c.o -MF amdgpu/libdrm_amdgpu.so.1.0.0.p/handle_table.c.o.d -o amdgpu/libdrm_amdgpu.so.1.0.0.p/handle_table.c.o -c ../../../../libdrm/amdgpu/handle_table.c",
+    "file": "../../../../libdrm/amdgpu/handle_table.c",
+    "output": "amdgpu/libdrm_amdgpu.so.1.0.0.p/handle_table.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ifreedreno/libdrm_freedreno.so.1.0.0.p -Ifreedreno -I../../../../libdrm/freedreno -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_device.c.o -MF freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_device.c.o.d -o freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_device.c.o -c ../../../../libdrm/freedreno/freedreno_device.c",
+    "file": "../../../../libdrm/freedreno/freedreno_device.c",
+    "output": "freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_device.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ifreedreno/libdrm_freedreno.so.1.0.0.p -Ifreedreno -I../../../../libdrm/freedreno -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_pipe.c.o -MF freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_pipe.c.o.d -o freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_pipe.c.o -c ../../../../libdrm/freedreno/freedreno_pipe.c",
+    "file": "../../../../libdrm/freedreno/freedreno_pipe.c",
+    "output": "freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_pipe.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ifreedreno/libdrm_freedreno.so.1.0.0.p -Ifreedreno -I../../../../libdrm/freedreno -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_ringbuffer.c.o -MF freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_ringbuffer.c.o.d -o freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_ringbuffer.c.o -c ../../../../libdrm/freedreno/freedreno_ringbuffer.c",
+    "file": "../../../../libdrm/freedreno/freedreno_ringbuffer.c",
+    "output": "freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_ringbuffer.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ifreedreno/libdrm_freedreno.so.1.0.0.p -Ifreedreno -I../../../../libdrm/freedreno -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_bo.c.o -MF freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_bo.c.o.d -o freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_bo.c.o -c ../../../../libdrm/freedreno/freedreno_bo.c",
+    "file": "../../../../libdrm/freedreno/freedreno_bo.c",
+    "output": "freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_bo.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ifreedreno/libdrm_freedreno.so.1.0.0.p -Ifreedreno -I../../../../libdrm/freedreno -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_bo_cache.c.o -MF freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_bo_cache.c.o.d -o freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_bo_cache.c.o -c ../../../../libdrm/freedreno/freedreno_bo_cache.c",
+    "file": "../../../../libdrm/freedreno/freedreno_bo_cache.c",
+    "output": "freedreno/libdrm_freedreno.so.1.0.0.p/freedreno_bo_cache.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ifreedreno/libdrm_freedreno.so.1.0.0.p -Ifreedreno -I../../../../libdrm/freedreno -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ freedreno/libdrm_freedreno.so.1.0.0.p/msm_msm_bo.c.o -MF freedreno/libdrm_freedreno.so.1.0.0.p/msm_msm_bo.c.o.d -o freedreno/libdrm_freedreno.so.1.0.0.p/msm_msm_bo.c.o -c ../../../../libdrm/freedreno/msm/msm_bo.c",
+    "file": "../../../../libdrm/freedreno/msm/msm_bo.c",
+    "output": "freedreno/libdrm_freedreno.so.1.0.0.p/msm_msm_bo.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ifreedreno/libdrm_freedreno.so.1.0.0.p -Ifreedreno -I../../../../libdrm/freedreno -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ freedreno/libdrm_freedreno.so.1.0.0.p/msm_msm_device.c.o -MF freedreno/libdrm_freedreno.so.1.0.0.p/msm_msm_device.c.o.d -o freedreno/libdrm_freedreno.so.1.0.0.p/msm_msm_device.c.o -c ../../../../libdrm/freedreno/msm/msm_device.c",
+    "file": "../../../../libdrm/freedreno/msm/msm_device.c",
+    "output": "freedreno/libdrm_freedreno.so.1.0.0.p/msm_msm_device.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ifreedreno/libdrm_freedreno.so.1.0.0.p -Ifreedreno -I../../../../libdrm/freedreno -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ freedreno/libdrm_freedreno.so.1.0.0.p/msm_msm_pipe.c.o -MF freedreno/libdrm_freedreno.so.1.0.0.p/msm_msm_pipe.c.o.d -o freedreno/libdrm_freedreno.so.1.0.0.p/msm_msm_pipe.c.o -c ../../../../libdrm/freedreno/msm/msm_pipe.c",
+    "file": "../../../../libdrm/freedreno/msm/msm_pipe.c",
+    "output": "freedreno/libdrm_freedreno.so.1.0.0.p/msm_msm_pipe.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ifreedreno/libdrm_freedreno.so.1.0.0.p -Ifreedreno -I../../../../libdrm/freedreno -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ freedreno/libdrm_freedreno.so.1.0.0.p/msm_msm_ringbuffer.c.o -MF freedreno/libdrm_freedreno.so.1.0.0.p/msm_msm_ringbuffer.c.o.d -o freedreno/libdrm_freedreno.so.1.0.0.p/msm_msm_ringbuffer.c.o -c ../../../../libdrm/freedreno/msm/msm_ringbuffer.c",
+    "file": "../../../../libdrm/freedreno/msm/msm_ringbuffer.c",
+    "output": "freedreno/libdrm_freedreno.so.1.0.0.p/msm_msm_ringbuffer.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ietnaviv/libdrm_etnaviv.so.1.0.0.p -Ietnaviv -I../../../../libdrm/etnaviv -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_device.c.o -MF etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_device.c.o.d -o etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_device.c.o -c ../../../../libdrm/etnaviv/etnaviv_device.c",
+    "file": "../../../../libdrm/etnaviv/etnaviv_device.c",
+    "output": "etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_device.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ietnaviv/libdrm_etnaviv.so.1.0.0.p -Ietnaviv -I../../../../libdrm/etnaviv -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_gpu.c.o -MF etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_gpu.c.o.d -o etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_gpu.c.o -c ../../../../libdrm/etnaviv/etnaviv_gpu.c",
+    "file": "../../../../libdrm/etnaviv/etnaviv_gpu.c",
+    "output": "etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_gpu.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ietnaviv/libdrm_etnaviv.so.1.0.0.p -Ietnaviv -I../../../../libdrm/etnaviv -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_bo.c.o -MF etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_bo.c.o.d -o etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_bo.c.o -c ../../../../libdrm/etnaviv/etnaviv_bo.c",
+    "file": "../../../../libdrm/etnaviv/etnaviv_bo.c",
+    "output": "etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_bo.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ietnaviv/libdrm_etnaviv.so.1.0.0.p -Ietnaviv -I../../../../libdrm/etnaviv -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_bo_cache.c.o -MF etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_bo_cache.c.o.d -o etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_bo_cache.c.o -c ../../../../libdrm/etnaviv/etnaviv_bo_cache.c",
+    "file": "../../../../libdrm/etnaviv/etnaviv_bo_cache.c",
+    "output": "etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_bo_cache.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ietnaviv/libdrm_etnaviv.so.1.0.0.p -Ietnaviv -I../../../../libdrm/etnaviv -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_perfmon.c.o -MF etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_perfmon.c.o.d -o etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_perfmon.c.o -c ../../../../libdrm/etnaviv/etnaviv_perfmon.c",
+    "file": "../../../../libdrm/etnaviv/etnaviv_perfmon.c",
+    "output": "etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_perfmon.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ietnaviv/libdrm_etnaviv.so.1.0.0.p -Ietnaviv -I../../../../libdrm/etnaviv -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_pipe.c.o -MF etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_pipe.c.o.d -o etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_pipe.c.o -c ../../../../libdrm/etnaviv/etnaviv_pipe.c",
+    "file": "../../../../libdrm/etnaviv/etnaviv_pipe.c",
+    "output": "etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_pipe.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Ietnaviv/libdrm_etnaviv.so.1.0.0.p -Ietnaviv -I../../../../libdrm/etnaviv -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_cmd_stream.c.o -MF etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_cmd_stream.c.o.d -o etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_cmd_stream.c.o -c ../../../../libdrm/etnaviv/etnaviv_cmd_stream.c",
+    "file": "../../../../libdrm/etnaviv/etnaviv_cmd_stream.c",
+    "output": "etnaviv/libdrm_etnaviv.so.1.0.0.p/etnaviv_cmd_stream.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/util/libutil.a.p -Itests/util -I../../../../libdrm/tests/util -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -MD -MQ tests/util/libutil.a.p/format.c.o -MF tests/util/libutil.a.p/format.c.o.d -o tests/util/libutil.a.p/format.c.o -c ../../../../libdrm/tests/util/format.c",
+    "file": "../../../../libdrm/tests/util/format.c",
+    "output": "tests/util/libutil.a.p/format.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/util/libutil.a.p -Itests/util -I../../../../libdrm/tests/util -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -MD -MQ tests/util/libutil.a.p/kms.c.o -MF tests/util/libutil.a.p/kms.c.o.d -o tests/util/libutil.a.p/kms.c.o -c ../../../../libdrm/tests/util/kms.c",
+    "file": "../../../../libdrm/tests/util/kms.c",
+    "output": "tests/util/libutil.a.p/kms.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/util/libutil.a.p -Itests/util -I../../../../libdrm/tests/util -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -fPIC -MD -MQ tests/util/libutil.a.p/pattern.c.o -MF tests/util/libutil.a.p/pattern.c.o.d -o tests/util/libutil.a.p/pattern.c.o -c ../../../../libdrm/tests/util/pattern.c",
+    "file": "../../../../libdrm/tests/util/pattern.c",
+    "output": "tests/util/libutil.a.p/pattern.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/modeprint/modeprint.p -Itests/modeprint -I../../../../libdrm/tests/modeprint -I. -I../../../../libdrm -Itests -I../../../../libdrm/tests -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ tests/modeprint/modeprint.p/modeprint.c.o -MF tests/modeprint/modeprint.p/modeprint.c.o.d -o tests/modeprint/modeprint.p/modeprint.c.o -c ../../../../libdrm/tests/modeprint/modeprint.c",
+    "file": "../../../../libdrm/tests/modeprint/modeprint.c",
+    "output": "tests/modeprint/modeprint.p/modeprint.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/proptest/proptest.p -Itests/proptest -I../../../../libdrm/tests/proptest -I. -I../../../../libdrm -Itests -I../../../../libdrm/tests -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ tests/proptest/proptest.p/proptest.c.o -MF tests/proptest/proptest.p/proptest.c.o.d -o tests/proptest/proptest.p/proptest.c.o -c ../../../../libdrm/tests/proptest/proptest.c",
+    "file": "../../../../libdrm/tests/proptest/proptest.c",
+    "output": "tests/proptest/proptest.p/proptest.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/modetest/modetest.p -Itests/modetest -I../../../../libdrm/tests/modetest -I. -I../../../../libdrm -Itests -I../../../../libdrm/tests -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -Wno-pointer-arith -MD -MQ tests/modetest/modetest.p/buffers.c.o -MF tests/modetest/modetest.p/buffers.c.o.d -o tests/modetest/modetest.p/buffers.c.o -c ../../../../libdrm/tests/modetest/buffers.c",
+    "file": "../../../../libdrm/tests/modetest/buffers.c",
+    "output": "tests/modetest/modetest.p/buffers.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/modetest/modetest.p -Itests/modetest -I../../../../libdrm/tests/modetest -I. -I../../../../libdrm -Itests -I../../../../libdrm/tests -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -Wno-pointer-arith -MD -MQ tests/modetest/modetest.p/cursor.c.o -MF tests/modetest/modetest.p/cursor.c.o.d -o tests/modetest/modetest.p/cursor.c.o -c ../../../../libdrm/tests/modetest/cursor.c",
+    "file": "../../../../libdrm/tests/modetest/cursor.c",
+    "output": "tests/modetest/modetest.p/cursor.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/modetest/modetest.p -Itests/modetest -I../../../../libdrm/tests/modetest -I. -I../../../../libdrm -Itests -I../../../../libdrm/tests -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -Wno-pointer-arith -MD -MQ tests/modetest/modetest.p/modetest.c.o -MF tests/modetest/modetest.p/modetest.c.o.d -o tests/modetest/modetest.p/modetest.c.o -c ../../../../libdrm/tests/modetest/modetest.c",
+    "file": "../../../../libdrm/tests/modetest/modetest.c",
+    "output": "tests/modetest/modetest.p/modetest.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/vbltest/vbltest.p -Itests/vbltest -I../../../../libdrm/tests/vbltest -I. -I../../../../libdrm -Itests -I../../../../libdrm/tests -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ tests/vbltest/vbltest.p/vbltest.c.o -MF tests/vbltest/vbltest.p/vbltest.c.o.d -o tests/vbltest/vbltest.p/vbltest.c.o -c ../../../../libdrm/tests/vbltest/vbltest.c",
+    "file": "../../../../libdrm/tests/vbltest/vbltest.c",
+    "output": "tests/vbltest/vbltest.p/vbltest.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/radeon/radeon_ttm.p -Itests/radeon -I../../../../libdrm/tests/radeon -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ tests/radeon/radeon_ttm.p/rbo.c.o -MF tests/radeon/radeon_ttm.p/rbo.c.o.d -o tests/radeon/radeon_ttm.p/rbo.c.o -c ../../../../libdrm/tests/radeon/rbo.c",
+    "file": "../../../../libdrm/tests/radeon/rbo.c",
+    "output": "tests/radeon/radeon_ttm.p/rbo.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/radeon/radeon_ttm.p -Itests/radeon -I../../../../libdrm/tests/radeon -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ tests/radeon/radeon_ttm.p/radeon_ttm.c.o -MF tests/radeon/radeon_ttm.p/radeon_ttm.c.o.d -o tests/radeon/radeon_ttm.p/radeon_ttm.c.o -c ../../../../libdrm/tests/radeon/radeon_ttm.c",
+    "file": "../../../../libdrm/tests/radeon/radeon_ttm.c",
+    "output": "tests/radeon/radeon_ttm.p/radeon_ttm.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/amdgpu/amdgpu_stress.p -Itests/amdgpu -I../../../../libdrm/tests/amdgpu -I. -I../../../../libdrm -I../../../../libdrm/include/drm -Iamdgpu -I../../../../libdrm/amdgpu -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -pthread -MD -MQ tests/amdgpu/amdgpu_stress.p/amdgpu_stress.c.o -MF tests/amdgpu/amdgpu_stress.p/amdgpu_stress.c.o.d -o tests/amdgpu/amdgpu_stress.p/amdgpu_stress.c.o -c ../../../../libdrm/tests/amdgpu/amdgpu_stress.c",
+    "file": "../../../../libdrm/tests/amdgpu/amdgpu_stress.c",
+    "output": "tests/amdgpu/amdgpu_stress.p/amdgpu_stress.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/etnaviv/etnaviv_2d_test.p -Itests/etnaviv -I../../../../libdrm/tests/etnaviv -I. -I../../../../libdrm -I../../../../libdrm/include/drm -Ietnaviv -I../../../../libdrm/etnaviv -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -MD -MQ tests/etnaviv/etnaviv_2d_test.p/etnaviv_2d_test.c.o -MF tests/etnaviv/etnaviv_2d_test.p/etnaviv_2d_test.c.o.d -o tests/etnaviv/etnaviv_2d_test.p/etnaviv_2d_test.c.o -c ../../../../libdrm/tests/etnaviv/etnaviv_2d_test.c",
+    "file": "../../../../libdrm/tests/etnaviv/etnaviv_2d_test.c",
+    "output": "tests/etnaviv/etnaviv_2d_test.p/etnaviv_2d_test.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/etnaviv/etnaviv_2d_test.p -Itests/etnaviv -I../../../../libdrm/tests/etnaviv -I. -I../../../../libdrm -I../../../../libdrm/include/drm -Ietnaviv -I../../../../libdrm/etnaviv -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -MD -MQ tests/etnaviv/etnaviv_2d_test.p/write_bmp.c.o -MF tests/etnaviv/etnaviv_2d_test.p/write_bmp.c.o.d -o tests/etnaviv/etnaviv_2d_test.p/write_bmp.c.o -c ../../../../libdrm/tests/etnaviv/write_bmp.c",
+    "file": "../../../../libdrm/tests/etnaviv/write_bmp.c",
+    "output": "tests/etnaviv/etnaviv_2d_test.p/write_bmp.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/etnaviv/etnaviv_cmd_stream_test.p -Itests/etnaviv -I../../../../libdrm/tests/etnaviv -I. -I../../../../libdrm -I../../../../libdrm/include/drm -Ietnaviv -I../../../../libdrm/etnaviv -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -MD -MQ tests/etnaviv/etnaviv_cmd_stream_test.p/etnaviv_cmd_stream_test.c.o -MF tests/etnaviv/etnaviv_cmd_stream_test.p/etnaviv_cmd_stream_test.c.o.d -o tests/etnaviv/etnaviv_cmd_stream_test.p/etnaviv_cmd_stream_test.c.o -c ../../../../libdrm/tests/etnaviv/etnaviv_cmd_stream_test.c",
+    "file": "../../../../libdrm/tests/etnaviv/etnaviv_cmd_stream_test.c",
+    "output": "tests/etnaviv/etnaviv_cmd_stream_test.p/etnaviv_cmd_stream_test.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/etnaviv/etnaviv_bo_cache_test.p -Itests/etnaviv -I../../../../libdrm/tests/etnaviv -I. -I../../../../libdrm -I../../../../libdrm/include/drm -Ietnaviv -I../../../../libdrm/etnaviv -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -MD -MQ tests/etnaviv/etnaviv_bo_cache_test.p/etnaviv_bo_cache_test.c.o -MF tests/etnaviv/etnaviv_bo_cache_test.p/etnaviv_bo_cache_test.c.o.d -o tests/etnaviv/etnaviv_bo_cache_test.p/etnaviv_bo_cache_test.c.o -c ../../../../libdrm/tests/etnaviv/etnaviv_bo_cache_test.c",
+    "file": "../../../../libdrm/tests/etnaviv/etnaviv_bo_cache_test.c",
+    "output": "tests/etnaviv/etnaviv_bo_cache_test.p/etnaviv_bo_cache_test.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/nouveau/threaded.p -Itests/nouveau -I../../../../libdrm/tests/nouveau -I. -I../../../../libdrm -I../../../../libdrm/include/drm -Inouveau -I../../../../libdrm/nouveau -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -pthread -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ tests/nouveau/threaded.p/threaded.c.o -MF tests/nouveau/threaded.p/threaded.c.o.d -o tests/nouveau/threaded.p/threaded.c.o -c ../../../../libdrm/tests/nouveau/threaded.c",
+    "file": "../../../../libdrm/tests/nouveau/threaded.c",
+    "output": "tests/nouveau/threaded.p/threaded.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/drmsl.p -Itests -I../../../../libdrm/tests -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ tests/drmsl.p/drmsl.c.o -MF tests/drmsl.p/drmsl.c.o.d -o tests/drmsl.p/drmsl.c.o -c ../../../../libdrm/tests/drmsl.c",
+    "file": "../../../../libdrm/tests/drmsl.c",
+    "output": "tests/drmsl.p/drmsl.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/hash.p -Itests -I../../../../libdrm/tests -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ tests/hash.p/hash.c.o -MF tests/hash.p/hash.c.o.d -o tests/hash.p/hash.c.o -c ../../../../libdrm/tests/hash.c",
+    "file": "../../../../libdrm/tests/hash.c",
+    "output": "tests/hash.p/hash.c.o"
+  },
+  {
+    "directory": "/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build",
+    "command": "aarch64-linux-gnu-gcc -Itests/drmdevice.p -Itests -I../../../../libdrm/tests -I. -I../../../../libdrm -I../../../../libdrm/include/drm -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -std=c11 -O2 -g -include /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/config.h -Wsign-compare -Werror=undef -Werror=implicit-function-declaration -Wpointer-arith -Wwrite-strings -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wnested-externs -Wpacked -Wswitch-enum -Wmissing-format-attribute -Wstrict-aliasing=2 -Winit-self -Winline -Wshadow -Wdeclaration-after-statement -Wold-style-definition -Wno-unused-parameter -Wno-attributes -Wno-long-long -Wno-missing-field-initializers -MD -MQ tests/drmdevice.p/drmdevice.c.o -MF tests/drmdevice.p/drmdevice.c.o.d -o tests/drmdevice.p/drmdevice.c.o -c ../../../../libdrm/tests/drmdevice.c",
+    "file": "../../../../libdrm/tests/drmdevice.c",
+    "output": "tests/drmdevice.p/drmdevice.c.o"
+  }
+]

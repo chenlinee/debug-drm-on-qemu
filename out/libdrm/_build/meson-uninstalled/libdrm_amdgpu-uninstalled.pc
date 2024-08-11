@@ -1,0 +1,12 @@
+prefix=/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build
+srcdir=/home/ciichen/Documents/Projects/kernel-dev/libdrm
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libdrm_amdgpu
+Description: Userspace interface to kernel DRM services for amdgpu
+Version: 2.4.122
+Requires.private: libdrm
+Libs: -L${prefix}/amdgpu -ldrm_amdgpu
+Libs.private: -pthread
+Cflags: -I${prefix}/amdgpu -I${srcdir}/amdgpu -I${prefix} -I${srcdir} -I${prefix}/include/drm -I${srcdir}/include/drm

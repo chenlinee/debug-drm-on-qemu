@@ -1,0 +1,12 @@
+prefix=/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build
+srcdir=/home/ciichen/Documents/Projects/kernel-dev/libdrm
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libdrm_freedreno
+Description: Userspace interface to freedreno kernel DRM services
+Version: 2.4.122
+Requires.private: libdrm
+Libs: -L${prefix}/freedreno -ldrm_freedreno
+Libs.private: -pthread
+Cflags: -I${prefix}/freedreno -I${srcdir}/freedreno -I${prefix} -I${srcdir} -I${prefix}/include/drm -I${srcdir}/include/drm

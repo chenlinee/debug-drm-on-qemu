@@ -1,0 +1,10 @@
+prefix=/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build
+srcdir=/home/ciichen/Documents/Projects/kernel-dev/libdrm
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libdrm
+Description: Userspace interface to kernel DRM services
+Version: 2.4.122
+Libs: -L${prefix} -ldrm
+Cflags: -I${prefix} -I${srcdir} -I${prefix}/include/drm -I${srcdir}/include/drm

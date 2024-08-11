@@ -1,0 +1,6 @@
+[options]
+prefix = /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/install
+
+[properties]
+cross_file = ['/home/ciichen/Documents/Projects/kernel-dev/build/libdrm_build_config.txt']
+

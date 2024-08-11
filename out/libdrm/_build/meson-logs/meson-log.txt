@@ -1,0 +1,636 @@
+Build started at 2024-08-04T17:16:54.462575
+Main binary: /usr/bin/python3
+Build Options: -Dprefix=/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/install '--cross-file libdrm_build_config.txt'
+Python system: Linux
+The Meson build system
+Version: 0.61.2
+Source dir: /home/ciichen/Documents/Projects/kernel-dev/libdrm
+Build dir: /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build
+Build type: cross build
+Project name: libdrm
+Project version: 2.4.122
+Sanity testing C compiler: aarch64-linux-gnu-gcc
+Is cross compiler: True.
+Sanity check compiler command line: aarch64-linux-gnu-gcc sanitycheckc.c -o sanitycheckc_cross.exe -D_FILE_OFFSET_BITS=64 -c
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+C compiler for the host machine: aarch64-linux-gnu-gcc (gcc 11.4.0 "aarch64-linux-gnu-gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0")
+C linker for the host machine: aarch64-linux-gnu-gcc ld.bfd 2.38
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 12.3.0 "cc (Ubuntu 12.3.0-1ubuntu1~22.04) 12.3.0")
+C linker for the build machine: cc ld.bfd 2.38
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: aarch64
+Host machine cpu: armv8
+Target machine cpu family: aarch64
+Target machine cpu: armv8
+Run-time dependency threads found: YES
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmper2turr7
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmper2turr7/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmper2turr7/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ int func() { return __ANDROID__; }
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmper2turr7/testfile.c: In function 'func':
+/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmper2turr7/testfile.c:1:21: error: '__ANDROID__' undeclared (first use in this function)
+    1 | int func() { return __ANDROID__; }
+      |                     ^~~~~~~~~~~
+/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmper2turr7/testfile.c:1:21: note: each undeclared identifier is reported only once for each function it appears in
+
+Program symbols-check.py found: YES (/usr/bin/python3 /home/ciichen/Documents/Projects/kernel-dev/libdrm/symbols-check.py)
+Program nm found: YES (/usr/bin/nm)
+Program python3 found: YES (/usr/bin/python3)
+WARNING: Python files installed by Meson might not be found by python interpreter.
+ This warning can be avoided by setting "python.platlibdir" option.
+WARNING: Python files installed by Meson might not be found by python interpreter.
+ This warning can be avoided by setting "python.purelibdir" option.
+Pkg-config binary for 1 is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Default target is not allowed for cross use
+Found Pkg-config: NO
+Pkg-config binary for machine 1 not found. Giving up.
+CMake binary for 1 is not cached
+CMake binary missing from cross or native file, or env var undefined.
+Default target is not allowed for cross use
+Found CMake: NO
+CMake binary for machine 1 not found. Giving up.
+Run-time dependency atomic_ops found: NO (tried pkgconfig and cmake)
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp9o2ekaai
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp9o2ekaai/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp9o2ekaai/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+    int atomic_add(int *i) { return __sync_add_and_fetch (i, 1); }
+    int atomic_cmpxchg(int *i, int j, int k) { return __sync_val_compare_and_swap (i, j, k); }
+    int main() { }
+    
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking if "Intel Atomics" : links: YES 
+Pkg-config binary for 1 is cached as not found.
+Pkg-config binary for machine 1 not found. Giving up.
+CMake binary for 1 is cached as not found
+CMake binary for machine 1 not found. Giving up.
+Run-time dependency pciaccess found: NO (tried pkgconfig and cmake)
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpvb6vokvn
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpvb6vokvn/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpvb6vokvn/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #define dlsym meson_disable_define_of_dlsym
+        
+        #include <limits.h>
+        #undef dlsym
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char dlsym (void);
+        
+        #if defined __stub_dlsym || defined __stub___dlsym
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return dlsym ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "dlsym" : YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpt8npxex_
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpt8npxex_/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpt8npxex_/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ #define _GNU_SOURCE
+#include <time.h>
+#include <limits.h>
+
+        #if defined __stub_clock_gettime || defined __stub___clock_gettime
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &clock_gettime;
+            long long b = (long long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "clock_gettime" : YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpkduv3g9d
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpkduv3g9d/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpkduv3g9d/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #include <sys/select.h>
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Check usable header "sys/select.h" : YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp8w3b2ddi
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp8w3b2ddi/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp8w3b2ddi/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #include <alloca.h>
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Check usable header "alloca.h" : YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpa_5u_mjc
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpa_5u_mjc/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpa_5u_mjc/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #include <sys/sysmacros.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef major
+                major;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <sys/sysmacros.h> has symbol "major" : YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpb376ljuu
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpb376ljuu/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpb376ljuu/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #include <sys/sysmacros.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef minor
+                minor;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <sys/sysmacros.h> has symbol "minor" : YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpp50qjf0q
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpp50qjf0q/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpp50qjf0q/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #include <sys/sysmacros.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef makedev
+                makedev;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <sys/sysmacros.h> has symbol "makedev" : YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpgzhyl7ks
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpgzhyl7ks/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpgzhyl7ks/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #include <sys/mkdev.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef major
+                major;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpgzhyl7ks/testfile.c:2:18: fatal error: sys/mkdev.h: No such file or directory
+    2 |         #include <sys/mkdev.h>
+      |                  ^~~~~~~~~~~~~
+compilation terminated.
+
+Header <sys/mkdev.h> has symbol "major" : NO 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmphltj2c2w
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmphltj2c2w/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmphltj2c2w/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=c11 
+
+Code:
+ 
+        #define open_memstream meson_disable_define_of_open_memstream
+        
+        #include <limits.h>
+        #undef open_memstream
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char open_memstream (void);
+        
+        #if defined __stub_open_memstream || defined __stub___open_memstream
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return open_memstream ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "open_memstream" : YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp4u8ld2gl
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp4u8ld2gl/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp4u8ld2gl/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wsign-compare 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wsign-compare: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpioe5bv9m
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpioe5bv9m/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpioe5bv9m/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=undef 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=undef: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmps2_h5pqn
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmps2_h5pqn/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmps2_h5pqn/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=implicit-function-declaration 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Werror=implicit-function-declaration: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpnurehr3t
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpnurehr3t/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpnurehr3t/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wpointer-arith 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpc9cjnpwg
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpc9cjnpwg/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpc9cjnpwg/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wwrite-strings 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp6vawqkki
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp6vawqkki/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp6vawqkki/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-prototypes 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmptxma9k6k
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmptxma9k6k/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmptxma9k6k/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-prototypes 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmplcllc2si
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmplcllc2si/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmplcllc2si/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-declarations 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmprhc2qzk8
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmprhc2qzk8/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmprhc2qzk8/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wnested-externs 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wnested-externs: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpo8dxf5ks
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpo8dxf5ks/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpo8dxf5ks/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wpacked 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wpacked: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpm160m0x0
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpm160m0x0/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpm160m0x0/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wswitch-enum 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wswitch-enum: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpmipnc3w3
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpmipnc3w3/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpmipnc3w3/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-format-attribute 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-format-attribute: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp3pj5g1fz
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp3pj5g1fz/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp3pj5g1fz/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-aliasing=2 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-aliasing=2: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp9uaklpm8
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp9uaklpm8/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp9uaklpm8/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Winit-self 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Winit-self: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmptoywpk7o
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmptoywpk7o/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmptoywpk7o/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Winline 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Winline: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpe47tkud9
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpe47tkud9/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpe47tkud9/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wshadow 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wshadow: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpzl3sq10v
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpzl3sq10v/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpzl3sq10v/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wdeclaration-after-statement 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wdeclaration-after-statement: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpzk52snga
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpzk52snga/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpzk52snga/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-definition 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpeuyypi42
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpeuyypi42/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpeuyypi42/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wunused-parameter -Wno-unused-parameter 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp9o1mh1r_
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp9o1mh1r_/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmp9o1mh1r_/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wattributes -Wno-attributes 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-attributes: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpn58dy7oh
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpn58dy7oh/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpn58dy7oh/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wlong-long -Wno-long-long 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-long-long: YES 
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpafsk8pa8
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpafsk8pa8/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpafsk8pa8/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-field-initializers -Wno-missing-field-initializers 
+
+Code:
+ extern int i;
+int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+Pkg-config binary for 1 is cached as not found.
+Pkg-config binary for machine 1 not found. Giving up.
+CMake binary for 1 is cached as not found
+CMake binary for machine 1 not found. Giving up.
+Run-time dependency cunit found: NO (tried pkgconfig and cmake)
+Pkg-config binary for 1 is cached as not found.
+Pkg-config binary for machine 1 not found. Giving up.
+CMake binary for 1 is cached as not found
+CMake binary for machine 1 not found. Giving up.
+Run-time dependency cairo found: NO (tried pkgconfig and cmake)
+Pkg-config binary for 1 is cached as not found.
+Pkg-config binary for machine 1 not found. Giving up.
+Run-time dependency valgrind found: NO (tried pkgconfig)
+Program rst2man rst2man.py found: NO
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpk1qatwuo
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpk1qatwuo/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpk1qatwuo/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -Werror=attributes 
+
+Code:
+ int foo(void) __attribute__((visibility("hidden")));
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports function attribute visibility:hidden: YES 
+Configuring config.h using configuration
+Adding test "core-symbols-check"
+Adding test "nouveau-symbols-check"
+Adding test "radeon-symbols-check"
+Adding test "amdgpu-symbols-check"
+Adding test "freedreno-symbols-check"
+Adding test "etnaviv-symbols-check"
+Adding test "threaded"
+Adding test "hash"
+Adding test "drmsl"
+Adding test "drmdevice"
+Build targets in project: 21
+
+libdrm 2.4.122
+
+    Intel         : False
+    Radeon        : True
+    AMDGPU        : True
+    Nouveau       : True
+    vmwgfx        : True
+    OMAP          : False
+    Freedreno     : True
+    Freedreon-kgsl: False
+    Tegra         : False
+    Etnaviv       : True
+    EXYNOS        : False
+    VC4           : True
+
+  User defined options
+    Cross files   : libdrm_build_config.txt
+    prefix        : /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/install
+
+Found ninja-1.10.1 at /usr/bin/ninja
+Running compile:
+Working directory:  /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpit2dltte
+Command line:  aarch64-linux-gnu-gcc /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpit2dltte/testfile.c -o /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/_build/meson-private/tmpit2dltte/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc-cross/aarch64-linux-gnu/11/
+programs: =/usr/lib/gcc-cross/aarch64-linux-gnu/11/:/usr/lib/gcc-cross/aarch64-linux-gnu/11/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/11/:/usr/lib/gcc-cross/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/aarch64-linux-gnu/11/:/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/bin/
+libraries: =/usr/lib/gcc-cross/aarch64-linux-gnu/11/:/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/aarch64-linux-gnu/11/:/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/aarch64-linux-gnu/:/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/../lib/:/lib/aarch64-linux-gnu/11/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/11/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc-cross/aarch64-linux-gnu/11/../../../../aarch64-linux-gnu/lib/:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Failed to guess install tag for /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/install/share/libdrm/amdgpu.ids
+Failed to guess install tag for /home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/install/share/libdrm/amdgpu.ids

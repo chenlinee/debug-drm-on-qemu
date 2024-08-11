@@ -1,0 +1,11 @@
+prefix=/home/ciichen/Documents/Projects/kernel-dev/build/out/libdrm/install
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libdrm_nouveau
+Description: Userspace interface to nouveau kernel DRM services
+Version: 2.4.122
+Requires.private: libdrm
+Libs: -L${libdir} -ldrm_nouveau
+Libs.private: -pthread
+Cflags: -I${includedir} -I${includedir}/libdrm -I${includedir}/libdrm/nouveau
