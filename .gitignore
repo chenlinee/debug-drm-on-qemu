@@ -1,0 +1,12 @@
+out
+*.ko
+
+# Shared objects
+*.so
+*.so.*
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
