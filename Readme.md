@@ -27,5 +27,7 @@ mkdir out/rootfs
 make mount
 sudo cp -ra out/rootfs_tmplate/* out/rootfs
 make umount
+
+make run
 ```
 
